@@ -1,6 +1,6 @@
-ssh_key_path: C:\Users\VHS Kishore\Desktop\Keys\sivamware.pem
+ssh_key_path: /Users/hemasivakishorevuyyuru/sivamware.pem
 cluster_name: hskglobaltech.shop
-#kubernetes_version: v1.26.7-rancher1-1
+#kubernetes_version: v1.26.7-rancher1-1 #if we comment k8s_version it will take default version
 nodes:
 - address: ${master1}
   user: ubuntu
