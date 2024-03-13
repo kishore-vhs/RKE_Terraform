@@ -54,7 +54,7 @@ ingress:
 network:
   plugin: flannel
   options:
-    flannel_iface: ens5
+    flannel_iface: eth0
     flannel_backend_type: vxlan
     flannel_autoscaler_priority_class_name: system-cluster-critical # Available as of RKE v1.2.6+
     flannel_priority_class_name: system-cluster-critical # Available as of RKE v1.2.6+
