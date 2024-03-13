@@ -18,8 +18,8 @@ resource "aws_instance" "worker1" {
       sudo reboot
   EOF
   root_block_device {
-    volume_size = var.volumeSize
-    volume_type = var.volumeType
+    volume_size           = var.volumeSize
+    volume_type           = var.volumeType
     delete_on_termination = var.deleteOnTermination
   }
 }
@@ -44,8 +44,8 @@ resource "aws_instance" "worker2" {
       sudo reboot
   EOF
   root_block_device {
-    volume_size = var.volumeSize
-    volume_type = var.volumeType
+    volume_size           = var.volumeSize
+    volume_type           = var.volumeType
     delete_on_termination = var.deleteOnTermination
   }
 }
@@ -70,8 +70,8 @@ resource "aws_instance" "worker3" {
       sudo reboot
   EOF
   root_block_device {
-    volume_size = var.volumeSize
-    volume_type = var.volumeType
+    volume_size           = var.volumeSize
+    volume_type           = var.volumeType
     delete_on_termination = var.deleteOnTermination
   }
 }
