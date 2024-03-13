@@ -4,3 +4,12 @@ variable "vpc_name" {}
 variable "subnet1_cidr" {}
 variable "subnet2_cidr" {}
 variable "subnet3_cidr" {}
+variable "volumeSize" {}
+variable "volumeType" {}
+variable "deleteOnTermination" {}
+variable "nlbName" {}
+variable "tgName" {}
+variable "tfPort" {}
+variable "tgProtocol" {}
+variable "listenerPort" {}
+variable "listenerProtocol" {}
